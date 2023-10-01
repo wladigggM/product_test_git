@@ -19,6 +19,9 @@ class Product:
             raise "price меньше нуля"
         return True
 
+    # def __str__(self):
+    #     return f"{self.name}, {self.price}, {self.types}"
+
     @property
     def price(self):
         return self.__price
